@@ -27,7 +27,7 @@ const app = props => {
      });
   }
 
-   const nameChangeHandler = () => {
+   const nameChangeHandler = (event) => {
     setPersonsState({ 
       persons: [
         { name: 'Max', age: 28 },
